@@ -1,0 +1,95 @@
+.topheader {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.Menu-Horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Menu-Horizontal li a {
+  text-decoration: none;
+  padding: 15px 20px;
+  color: blue;
+}
+
+.Menu-Horizontal li a:hover {
+  color: red;
+}
+
+.Menu-Vertical {
+  padding: 0;
+  position: absolute;
+  display: none;
+}
+
+.Menu-Vertical li a {
+  display: block;
+  list-style: none;
+  color: black;
+}
+
+.Seccion-formulario {
+  background-color: rgb(44, 44, 173);
+  padding: 40px;
+  border: 3px solid blue;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.div-cont-formulario {
+  background-color: lightblue;
+  padding: 30px;
+  border: 2px solid blueviolet;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 500px;
+}
+.campo {
+  background-color: #de36e4;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid brown;
+  border-radius: 5px;
+}
+.Formulario label {
+  display: block;
+  color: purple;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.Formulario input[type="text"],
+.Formulario select {
+  width: 100%;
+  padding: 10px;
+  border: 1.5px solid blue;
+  border-radius: 3px;
+}
+.Formulario select {
+  border: 1.5px solid blueviolet;
+  border-radius: 1px;
+}
+.lista-checkbox,
+.lista-radio {
+  list-style: none;
+  padding: 8px;
+  background-color: #de36e4;
+  border: 1px solid blue;
+  border-radius: 2px;
+}
+.Formulario input[type="submit"] {
+  background-color: #d673da;
+  border: 2px solid blueviolet;
+  border-radius: 2px;
+  padding: 10px 20px;
+}
